@@ -1,0 +1,4 @@
+ssh bandit7@bandit.labs.overthewire.org
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+ls
+cat data.txt | grep millionth

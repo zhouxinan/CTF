@@ -1,0 +1,4 @@
+ssh bandit8@bandit.labs.overthewire.org
+cvX2JJa4CFALtqS87jk27qwqGhBM9plV
+ls
+sort data.txt | uniq -u

@@ -1,0 +1,6 @@
+ssh bandit3@bandit.labs.overthewire.org
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+ls
+cd inhere
+ls -la
+cat .hidden

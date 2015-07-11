@@ -1,0 +1,5 @@
+ssh bandit10@bandit.labs.overthewire.org
+truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+ls
+man base64
+base64 -d data.txt

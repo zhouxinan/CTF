@@ -1,0 +1,7 @@
+ssh bandit4@bandit.labs.overthewire.org
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+ls
+cd inhere
+ls
+file ./-file*
+cat ./-file07

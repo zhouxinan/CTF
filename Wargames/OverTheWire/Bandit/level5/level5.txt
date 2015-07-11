@@ -1,0 +1,7 @@
+ssh bandit5@bandit.labs.overthewire.org
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+ls
+cd inhere
+ls
+find -size 1033c \! -executable -type f
+cat ./maybehere07/.file2

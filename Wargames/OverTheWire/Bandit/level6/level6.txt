@@ -1,0 +1,4 @@
+ssh bandit6@bandit.labs.overthewire.org
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+cat /var/lib/dpkg/info/bandit7.password

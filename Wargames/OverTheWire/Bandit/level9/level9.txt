@@ -1,0 +1,6 @@
+ssh bandit9@bandit.labs.overthewire.org
+UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
+ls
+cat data.txt
+reset
+strings data.txt | grep =

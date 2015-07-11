@@ -1,0 +1,5 @@
+ssh bandit0@bandit.labs.overthewire.org
+bandit0
+cat /README.txt
+ls
+cat readme
