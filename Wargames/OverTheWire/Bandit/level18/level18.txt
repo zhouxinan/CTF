@@ -1,0 +1,2 @@
+ssh bandit18@bandit.labs.overthewire.org -t 'cat readme'
+kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd

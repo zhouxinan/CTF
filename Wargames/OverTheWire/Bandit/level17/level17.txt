@@ -1,0 +1,2 @@
+ssh bandit17@bandit.labs.overthewire.org -i sshkey.private
+diff passwords.new passwords.old

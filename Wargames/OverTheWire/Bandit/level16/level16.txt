@@ -1,0 +1,6 @@
+ssh bandit16@bandit.labs.overthewire.org
+cluFn7wTiGryunymYOu4RcffSxQluehd
+nmap -p 31000-32000 localhost -sV
+echo 'cluFn7wTiGryunymYOu4RcffSxQluehd' | openssl s_client -connect localhost:31518 -quiet
+echo 'cluFn7wTiGryunymYOu4RcffSxQluehd' | openssl s_client -connect localhost:31790 -quiet
+// The private key is dumped into /level17/sshkey.private and its permission should be changed to 600.

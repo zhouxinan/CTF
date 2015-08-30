@@ -1,0 +1,7 @@
+ssh bandit20@bandit.labs.overthewire.org
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+nc -l 12345
+// Start another ssh connection and execute:
+./suconnect 12345
+// Switch to the first ssh connection and execute:
+GbKksEFF4yrVs6il55v6gwY5aVje5f0j

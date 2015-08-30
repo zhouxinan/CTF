@@ -1,0 +1,29 @@
+ssh bandit12@bandit.labs.overthewire.org
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+ls
+cat data.txt
+mkdir /tmp/excited
+cp data.txt /tmp/excited/data.txt
+cd /tmp/excited
+cat data.txt | xxd -r > data
+file data
+mv data{,.gz}
+gunzip data.gz
+file data
+bunzip2 data
+file data.out
+mv data{.out,.gz}
+gunzip data.gz
+file data
+tar -xvf data
+file data5.bin
+tar -xvf data5.bin
+file data6.bin
+bunzip2 data6.bin
+file data6.bin.out
+tar -xvf data6.bin.out
+file data8.bin
+mv data8{.bin,.gz}
+gunzip data8.gz
+file data8
+cat data8

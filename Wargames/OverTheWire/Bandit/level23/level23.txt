@@ -1,0 +1,8 @@
+ssh bandit23@bandit.labs.overthewire.org
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+cd /etc/cron.d
+ls
+cat cronjob_bandit24
+cat /usr/bin/cronjob_bandit24.sh
+
+cat /tmp/$mytarget
