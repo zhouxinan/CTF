@@ -1,0 +1,11 @@
+ssh leviathan3@leviathan.labs.overthewire.org
+Ahdiemoo1j
+ll
+ltrace ./level3
+// Input something to see the function call.
+naive
+// You can see strcmp("naive\n", "snlprintf\n").
+./level3
+snlprintf
+// You now have a shell.
+cat /etc/leviathan_pass/leviathan4

