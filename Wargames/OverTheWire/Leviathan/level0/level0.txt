@@ -1,0 +1,6 @@
+ssh leviathan0@leviathan.labs.overthewire.org
+leviathan0
+ll
+cd .backup/
+ll
+grep leviathan1 bookmarks.html

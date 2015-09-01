@@ -1,0 +1,11 @@
+ssh leviathan1@leviathan.labs.overthewire.org
+rioGegei8m
+ltrace ./check
+// Then input something to see the function call.
+naive
+// You can see strcmp("nai", "sex").
+./check
+sex
+// You now get a shell.
+cat /etc/leviathan_pass/leviathan2
+exit
