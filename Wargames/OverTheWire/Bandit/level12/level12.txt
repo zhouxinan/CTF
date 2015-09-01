@@ -5,7 +5,7 @@ cat data.txt
 mkdir /tmp/excited
 cp data.txt /tmp/excited/data.txt
 cd /tmp/excited
-cat data.txt | xxd -r > data
+xxd -r data.txt > data
 file data
 mv data{,.gz}
 gunzip data.gz

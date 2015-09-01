@@ -1,0 +1,8 @@
+ssh bandit24@bandit.labs.overthewire.org
+UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+mkdir /tmp/excited2
+cd /tmp/excited2
+vi try.sh
+// Copy try.sh's content to the editor, then save and exit.
+chmod +x try.sh
+./try.sh

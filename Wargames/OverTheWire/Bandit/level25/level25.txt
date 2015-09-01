@@ -1,0 +1,10 @@
+ssh bandit25@bandit.labs.overthewire.org
+uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+grep bandit26 /etc/passwd
+cat /usr/bin/showtext
+man more // Read the manual for "more" and you will find the "v" command which allows you to start up an editor at current line.
+// Set the height of your terminal as small as possible (less than 6 lines).
+ssh bandit26@localhost -i bandit26.sshkey
+// Press "v".
+// Input ":r /etc/bandit_pass/bandit26" and press ENTER.
+// Press DOWN to reach the end of the file and press ENTER. Then you will see the password.

