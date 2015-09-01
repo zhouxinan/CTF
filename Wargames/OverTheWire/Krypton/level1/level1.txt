@@ -1,0 +1,5 @@
+ssh krypton1@krypton.labs.overthewire.org
+KRYPTONISGREAT
+cd /krypton/krypton1
+cat README
+cat krypton2 | tr 'A-Z' 'N-ZA-M'

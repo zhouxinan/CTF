@@ -1,0 +1,12 @@
+ssh krypton2@krypton.labs.overthewire.org
+ROTTEN
+cd /krypton/krypton2
+cat README
+cd `mktemp -d`
+ln -s /krypton/krypton2/keyfile.dat
+chmod 777 .
+echo abcdefg > test
+/krypton/krypton2/encrypt test
+cat ciphertext; printf "\n"
+// Read the output and calculate the offset.
+cat /krypton/krypton2/krypton3 | tr 'M-ZA-L' 'A-Z'
